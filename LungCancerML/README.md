@@ -31,9 +31,9 @@ continue working with the model that sees 21 neighbours
 | **Actual 1**  | 702        | 6180       |
 
 TN A0P0 is the model correctly predicting that patients don't have cancer       
-FP A0P1 is the model incorrectly predicting that patients have cancer
-FN A1P0 is the model incorrectly predicting that patients don't have cancer
-TP A1P1 is the model correctly predicting that patients have cancer
+FP A0P1 is the model incorrectly predicting that patients have cancer  
+FN A1P0 is the model incorrectly predicting that patients don't have cancer  
+TP A1P1 is the model correctly predicting that patients have cancer  
 
 ## Classification Report
 | Class            | Precision | Recall | F1-score | Support |
