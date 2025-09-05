@@ -65,6 +65,6 @@ Support 6882 actually class 1
 | ROC-AUC | 0.722 |
 
 what is ROC-AUC?  
-it measures the model’s ability to distinguish between classes
-0.5 would mean that it's just randomly guessing and 1.0 would mean has perfect discrimination
-in our case we got 0.722 which is a decent seperation but not accurate and has a lot of room for improvment
+it measures the model’s ability to distinguish between classes  
+0.5 would mean that it's just randomly guessing and 1.0 would mean has perfect discrimination  
+in our case we got 0.722 which is a decent seperation but not accurate and has a lot of room for improvment  
