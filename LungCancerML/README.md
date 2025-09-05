@@ -45,13 +45,13 @@ TP A1P1 is the model correctly predicting that patients have cancer
 
 ### Classes 
 
-Class 0 (no cancer):
+Class 0 (no cancer):  
 Precision 0.59 of all patients that the model predicted as 0 (no cancer) 59% where actually 0  
 Recall 0.32 of all the actually 0 patients the model only correctly identified 32%  
 F1-score 0.42 the harmonic mean between precision and recall -> F1 = 2 * (Precision * Recall) / (Precision + Recall)  
 Support 3118 actually class 0  
 
-Class 1 (cancer):
+Class 1 (cancer):  
 Precision 0.74 of all patients that the model predicted as 0 (no cancer) 74% where actually 0  
 Recall 0.90 of all the actually 1 patients the model only correctly identified 90%  
 F1-score 0.81 the harmonic mean between precision and recall -> F1 = 2 * (Precision * Recall) / (Precision + Recall)  
