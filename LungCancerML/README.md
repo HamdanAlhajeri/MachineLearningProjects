@@ -1,11 +1,13 @@
 Sept 3rd 2025:
+
 Started the repo and started on a lung cancer ml to predict if a patient has cancer based on their history
 Finished data encoding and started basic data visualization (heat map only)
+
 Sept 4th 2025:
 Standrized the values and started the KNN model
 
-Sept 5th 2025:
-tried the nearest neighbour for 3, 5, 7, 9 ... 21 the accuracy kept on increasing but with dimensing returns
+----------------------------------------------------
+Tried the nearest neighbour for 3, 5, 7, 9 ... 21 the accuracy kept on increasing but with dimensing returns
 
 # KNN Results  
 
@@ -104,3 +106,7 @@ This further supports what was stated in the confusion matrix 99% (0.99 from rec
 | ROC-AUC | 0.722 |
 
 
+## KNN measurments
+
+This time I tried changing how the KNN would check the surrounding neighbors by changing:  
+I tried every combination of neighbors tried previously (3 to 21 odds) with manhattan and minkowski for distance, uniform and distance for weights this yeilds a total of 40 diffrent combinations and the best combination found was 21, manhattan and uniform but this result was worse than the previous which was 21 euclidian. 
