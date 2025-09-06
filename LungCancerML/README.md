@@ -110,3 +110,18 @@ This further supports what was stated in the confusion matrix 99% (0.99 from rec
 
 This time I tried changing how the KNN would check the surrounding neighbors by changing:  
 I tried every combination of neighbors tried previously (3 to 21 odds) with manhattan and minkowski for distance, uniform and distance for weights this yeilds a total of 40 diffrent combinations and the best combination found was 21, manhattan and uniform but this result was worse than the previous which was 21 euclidian. 
+
+## Solution
+
+I'd like to try another meathod this time, we will use the heat map previously aquired in order to pick the 3 features that are most correlating with lung cancer  
+Even after picking only the 3 features that are most correlating there isn't much improvment.
+
+### What's next?
+
+Since the base KNN 21 neighbors model was the best out of all KNN models we'll finalize that and attempt another meathod, I'd like to attempt using something like a tree I have 3 options Decision Tree, Random Forest Tree and Gradient Boosting, as of writing thins I don't understand Random Forest tree or Gradient Boosting but I'd like to attempt to understand them before I pick a model.
+
+I decided I will go with a random forest tree as it isn't as prone to overfitting as a decision tree and it will take into considration many decision tree's output (in our case here 200 trees)
+
+The random forest tree ended up giving worse results than the KNN (somehow?) so let's try another meathod
+
+It's a bit of a bigger jump but I'd like to try and build a Neural Network and see what happens
