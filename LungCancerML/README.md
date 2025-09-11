@@ -125,3 +125,6 @@ I decided I will go with a random forest tree as it isn't as prone to overfittin
 The random forest tree ended up giving worse results than the KNN (somehow?) so let's try another meathod
 
 It's a bit of a bigger jump but I'd like to try and build a Neural Network and see what happens
+
+
+Test commit
